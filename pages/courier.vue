@@ -70,7 +70,6 @@ export default {
 						else if (status == 'Picked Up') {
 							status = 'Delivered'
 						}
-
 						let res = await axios.put(`http://127.0.0.1:5000/updateStatus/${id}`, {"newStatus": status})
 						this.data = res.data.data['package']
 
