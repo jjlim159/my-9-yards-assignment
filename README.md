@@ -1,7 +1,7 @@
 # my-project
 
-## Build Setup
-
+## Vue Front-End Setup
+Start Front-End at localhost:3000
 ```bash
 # install dependencies
 $ yarn install
@@ -12,7 +12,23 @@ $ yarn dev
 # build for production and launch server
 $ yarn build
 $ yarn start
+```
 
-# generate static project
-$ yarn generate
+## Python Backend
+Start Backend at localhost:5000
+```bash
+# Change directory to /backend
+$ cd backend/
+
+# Start Python Backend
+$ python app.py
+```
+
+## API Unit Test
+```bash
+# Change directory to /backend
+$ cd backend/
+
+# Start Python API Unit Test
+$ python -m unittest unit_test
 ```
